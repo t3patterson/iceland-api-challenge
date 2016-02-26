@@ -87,6 +87,10 @@ h1{
   padding: 25px;
   margin: 0 0 20px 0;
 }
+
+.logo{
+  width: 100px;
+}
 .more-info{
   text-align: center;
   margin-bottom: 80px;
@@ -157,7 +161,7 @@ h1{
 
   .q-container .answer {
     display: inline-block;
-    background: rgba(150,150,150,.8);
+    background: rgba(134, 226, 213, .8);
     text-align: center;
     padding: 0;
     font-family: monospace;
@@ -166,7 +170,7 @@ h1{
     .q-container .answer.num{
       height: 70px;
       line-height: 70px;
-      width: 200px;
+      width: 240px;
       font-size: 40px;
     }
   
