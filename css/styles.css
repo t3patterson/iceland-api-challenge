@@ -56,14 +56,14 @@ background: #fff;}
   .vertical.outer{
     width: 20vh;
     height: 100%;
-    left: 25%;
+    left: 30%;
     z-index: 2;
   }
 
   .vertical.inner{
     width: 10vh;
     height: 100%;
-    left: 25%;
+    left: 30%;
     z-index: 3;
   }
 
@@ -142,6 +142,10 @@ h1{
   .q-container h2 {
     padding-left: 50px;
     line-height: 1.44em;
+  }
+
+  .q-container h2 b{
+    background: rgba(244, 208, 63, .9);
   }
 
   .q-container span{
