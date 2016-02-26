@@ -2,7 +2,7 @@
 
 ###Instructions
 
-Clone the repo.
+Clone the repo so that you have the files and styles.
 
 You must examine the [Iceland API](http://docs.apis.is/) documentation and use the skills you've learned up to this point with promises and with string/number/array/object manipulation to answer the questions in the `index.html` file, making asynchronous requests to the Iceland API. 
 
