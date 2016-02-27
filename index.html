@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>Iceland API Challenge</title>
   <link rel="stylesheet" href="css/styles.css">
-  <script src="./js/setup.js"></script>
+  <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="./project-setup.js"></script>
 </head>
 <body>
     <div id="work-container">
@@ -16,60 +17,36 @@
       </div>
 
       
-      <div class="q-container">
-        <span>1</span>
-        <!-- ==== QUESTION ==== -->
-        <h2>How many bikes have been rented <u>year-to-date</u> with Iceland's city bicycles program (tracked by <b class='clue'>Bicyclecounter</b>)?</h2>
+      <div class="q-container" id="bikes-count">
         
+        <div class="answer-box num" >
+          ? 
+        </div>
+      </div>
+
+      <div class="q-container" id="total-patients">
         <!-- ............ -->
         <!-- ANSWER HERE -->
-        <div class="answer num" id="bikes-count-answer">
+        <div class="answer-box num" >
           ?
         </div>
       </div>
 
-
-
-      <div class="q-container">
-        <span>2</span>
-        <!-- ==== QUESTION ==== -->
-        <h2>How many <u>total patients</u> are in Iceland's national <b>hospital</b> at the moment?</h2>
-        
-        <!-- ............ -->
-        <!-- ANSWER HERE -->
-        <div class="answer num" id="total-patients-answer">
-          ?
-        </div>
-      </div>
-
-
-
-      <div class="q-container">
-        <span>3</span>
-        <!-- ==== QUESTION ==== -->
-        <h2>Create a html-list of <b>flights</b> that are <u>scheduled to arrive</u> from London after 6:00pm</h2>
-        
-
-        <p><strong>Note: create list with <code> &lt;li&gt; </code>tags as formatted below</strong></p>
-        <!-- ............ -->
-        <!-- ANSWER HERE -->
-        <ul class="answer list" id="london-flights-answer">
+      <div class="q-container" id="london-flights">
+        <ul class="answer-box list" >
+          <!-- ANSWER HERE 
+          ... will overwrite -->
           <em>example...</em>
           <li>London Gatwick -- easyJet -- 6:25</li>
           <li>London Heathrow -- Iceland Air -- 23:05</li>
         </ul>
       </div>
 
-      <div class="q-container">
-        <span>4</span>
-        <!-- ==== QUESTION ==== -->
-        <h2>Create a html-table that lists all of the carpool destinations and counts the total <b>carpool passenger-requests</b> to each destination</h2>
-        
-
-        <p><strong>Note: create list with <code> &lt;li&gt; </code>tags as formatted below</strong></p>
-        <!-- ............ -->
-        <!-- ANSWER HERE -->
-        <ul class="answer list" id="london-flights-answer">
+      <div class="q-container" id="carpool-passenger-requests">
+       
+        <ul class="answer-box list" >
+          <!-- ANSWER HERE...
+               will overwrite  -->
           <em>example...</em>
           <li>Reykavik: 34 </li>
           <li>Vík: 3</li>
@@ -79,27 +56,17 @@
         </ul>
       </div>
 
-      <div class="q-container">
-         <span>5</span>
-         <!-- ==== QUESTION ==== -->
-         <h2>What is the <u>total value</u> of prizes in the Icelandic <b>lottery</b>?</h2>
-
-         
-         <p><strong><u>Year-to-date total</u> in Iceland Krona (kr)</strong><br/>
-            <small><em><strong>Note:</strong> In Europe, large numbers are separted 
-            by periods rather than commas</em></small>
-         </p>
-
-         <!-- ............ -->
+      <div class="q-container" id="lottery-prizes">
+  
+         <div class="answer-box num prizes-krona">
          <!-- ANSWER HERE -->
-         <div class="answer num" id="total prizes-krona">
          ?
          </div>
          
          <p><strong><u>January total</u> in US Dollars (adventure mode)</strong></p>
-         <!-- ............ -->
+         
+         <div class="answer-box num prizes-usd">
          <!-- ANSWER HERE -->
-         <div class="answer num" id="total prizes-usd">
          ?
          </div>
       </div>

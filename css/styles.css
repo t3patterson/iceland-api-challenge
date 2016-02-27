@@ -163,7 +163,7 @@ h1{
     color: #3A539B;
   }
 
-  .q-container .answer {
+  .q-container .answer-box {
     display: inline-block;
     background: rgba(134, 226, 213, .8);
     text-align: center;
@@ -171,18 +171,18 @@ h1{
     font-family: monospace;
   }
 
-    .q-container .answer.num{
+    .q-container .answer-box.num{
       height: 70px;
       line-height: 70px;
       width: 240px;
       font-size: 40px;
     }
   
-    .q-container .answer.list li:before{
+    .q-container .answer-box.list li:before{
       content: "- ";
       display: inline;
     }
-    .q-container .answer.list{
+    .q-container .answer-box.list{
       padding: 10px;
       text-align: left;
       height: 300px;
