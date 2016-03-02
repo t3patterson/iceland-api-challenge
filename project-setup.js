@@ -12,7 +12,6 @@ var flagHTML  =  '<div id="stretch-bg">'
 
 function putQOnDOM(qOb){
    var domEl = document.querySelector('#' + qOb.id)
-   console.log(domEl)
    domEl.innerHTML = qOb.htmlStr + domEl.innerHTML
 } 
 
@@ -81,13 +80,8 @@ var qObj = {}
 
 allQuestions.push(qObj)
 
-
-window.onload = function(){
-  var container_el = document.querySelector('#work-container')
-  console.log(container_el)
-  container_el.outerHTML = flagHTML + container_el.outerHTML
-
-  allQuestions.forEach(function(q){
-    putQOnDOM(q)
-  })
-}
+var container_el = document.querySelector('#work-container')
+container_el.outerHTML = flagHTML + container_el.outerHTML
+allQuestions.forEach(function(q){
+  putQOnDOM(q)
+})
